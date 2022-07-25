@@ -43,7 +43,7 @@
                 "Version": {
                 "Ref": "eksversion"
                 },
-                "RoleArn": "arn:aws:iam::700318209168:role/aws-eks-role",
+                "RoleArn": "Put ARN of your EKS Cluster Role",
                 "ResourcesVpcConfig": {
                 "SecurityGroupIds":  [{"Ref":"EKSSG"}],
                 "SubnetIds": [{"Ref" : "Publicsubnet1"},
